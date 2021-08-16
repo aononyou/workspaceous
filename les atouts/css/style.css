@@ -1,0 +1,164 @@
+body{ 
+  background: #000 no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.st {
+  width: 525px;
+  margin: 6rem auto 3rem auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 7rem;
+  font-family: 'ITC Benguiat W01';
+  font-weight: 800;
+  color: #1c0502;
+  text-shadow: -0.05rem -0.05rem 1px #ed2b12,
+    0.05rem -0.05rem 1px #ed2b12,
+    -0.05rem 0.05rem 1px #ed2b12,
+    0.05rem 0.05rem 1px #ed2b12,
+    0 0 15px #630100,
+    0 0 20px #450100;
+  letter-spacing: -2px;
+}
+
+.st p {
+  display: inline-block;
+  margin: 0;
+}
+
+.st-bound {
+  box-shadow: -0.05rem -0.05rem 2px #ed2b12,
+    0.05rem -0.05rem 2px #ed2b12,
+    -0.05rem 0.05rem 2px #ed2b12,
+    0.05rem 0.05rem 2px #ed2b12;
+  height: 5px;
+}
+
+.st-bound-full {
+  width: 100%;
+  margin: auto;
+  margin-bottom: -7rem;
+  max-width: 0px;
+  margin-left: 0px;
+}
+
+.st-bound-mini {
+  margin-top: -1.9rem;
+}
+
+.st-bound-left {
+  float: left;
+  width: 75px;
+  position: relative;
+  left: -17px;
+}
+
+.st-bound-right {
+  float: right;
+  width: 300px;
+  left: -2.4rem;
+  position: relative;
+}
+
+.st-bottom {
+  clear: both;
+  top: -3.7rem;
+  position: relative;
+  left: .6rem;
+  letter-spacing: 2px;
+}
+
+.st-drop {
+  line-height: 0;
+  position: relative;
+  top: 1.55rem;
+}
+
+.st-stranger-s {
+  font-size: 10.5rem;
+  letter-spacing: -8px;
+}
+
+.st-stranger-t {
+  letter-spacing: 0;
+}
+
+.st-stranger-n {
+  letter-spacing: -5px;
+}
+
+.st-stranger-g {
+  letter-spacing: 0;
+}
+
+.st-stranger-r-2 {
+  font-size: 10.5rem;
+  right: 0.2rem;
+}
+
+.st-things-t {
+  font-size: 104%;
+  letter-spacing: 2px;
+}
+
+.st-things-n {
+  letter-spacing: -5px;
+}
+
+.st-things-g {
+  letter-spacing: -3px;
+}
+
+
+/*Base Design Andl Adona*/
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  color: dodgerblue;
+  bottom: 0;
+  left: 16px;
+  animation-name: fade-up;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+@keyframes fade-up {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  color: white;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  animation-name: fade;
+  animation-duration: 5s;
+  animation-delay: 0s;
+}
+
+@keyframes fade {
+  from {
+    margin-left: 0%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
